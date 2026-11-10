@@ -16,7 +16,8 @@ Week 4 covers networking basics: how a packet is like a mailed letter, the key d
 4. [The OSI Model](#4-the-osi-model)
 5. [The TCP/IP Model](#5-the-tcpip-model)
 6. [Wireshark](#6-wireshark)
-7. [Sources & Credits](#7-sources--credits)
+7. [My Notes](#7-my-notes)
+8. [Sources & Credits](#8-sources--credits)
 
 ---
 
@@ -295,7 +296,38 @@ A few beginner display filters:
 
 ---
 
-# 7. Sources & Credits
+# 7. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling; added context is in the notes below.*
+
+**Networking & Wireshark**
+
+- Compare Wireshark to a 3-year-old asking constant questions. (See [Wireshark](#6-wireshark).)
+- Each packet has a few different fields, like Russian dolls. (See [Encapsulation & Decapsulation](#encapsulation--decapsulation).)
+- The top layer holds the important information; the bottom layer holds the raw data.
+- Getting the name of a website is a very useful tool to have, as it allows you to see what's going on. (See [DNS](#3-domain-name-system).)
+- If you try to connect to a web server and it does not have anything available, you will most likely get an error message.
+- **HTTP** = no security/encryption. **HTTPS** = secure/encrypted.
+- Cut the network connection if you believe that the network, or what came over the network, was malicious.
+
+**Malware**
+
+- Check the links to the lessons for malware. Not very smart. Hm.
+- Pop-up malware might not even be sophisticated enough to harm a computer or survive a restart; interesting.
+
+**Other**
+
+- Fake money is very bad.
+- Plausible deniability, a good friend to have. (What are we, politicians now?)
+- The only way to own a farm is to inherit one.
+
+> **Note:** The Russian-doll comparison is a great way to remember **encapsulation**: the data sits inside a TCP header, inside an IP header, inside an Ethernet frame. "Top layer" here means OSI layer 7 (the application data people care about), and "bottom layer" is layer 1, the raw bits on the wire.
+>
+> **Note:** A server that's reachable but doesn't have the page returns an **HTTP 404 Not Found** error; see [HTTP Status Codes in Week 11](Week-11-‐-Web-Fundamentals-&-Security#http-status-codes).
+
+---
+
+# 8. Sources & Credits
 
 **Class materials**
 

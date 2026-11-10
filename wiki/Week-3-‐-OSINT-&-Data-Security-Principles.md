@@ -12,7 +12,8 @@ Week 3 covers open-source intelligence (OSINT), the levels of data and the McCum
 6. [Password Salting](#6-password-salting)
 7. [Information States](#7-information-states)
 8. [Laws, Policies & Controls](#8-laws-policies--controls)
-9. [Sources & Credits](#9-sources--credits)
+9. [My Notes](#9-my-notes)
+10. [Sources & Credits](#10-sources--credits)
 
 ---
 
@@ -381,7 +382,59 @@ This completes the [McCumber Cube](#the-mccumber-cube): **security goals** (CIA)
 
 ---
 
-# 9. Sources & Credits
+# 9. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling; added context is in the notes below.*
+
+**OSINT & breaches**
+
+- Checking if I've been pwned on sites for your email and stuff is a good idea. (See [Class Activity 3-1](#class-activity-3-1-osint).)
+- Only one of my passwords was breached; nice. Check in every now and then from now on.
+- OSINT is becoming more common, as they sell info to most people.
+- I'm with 95 cents lol.
+- You can opt out of a lot of these systems, but this info can still exist anywhere.
+- Only one image exists of me on the internet.
+- Different types of data breaches exist!
+- You can steal someone's password and then reset everything.
+- Honey is bad; they were selling information to everyone, and hackers got in, big womp womp.
+- Companies often don't know what they have.
+- More privacy laws for us.
+- Net neutrality is no longer a thing.
+
+**CIA & data**
+
+- Data is "classified" in three states: **in-rest**, **in-transit**, **in-use**. (See [Information States](#7-information-states).)
+- Different levels of data can be stolen, such as stuff from a hard drive to the data flow on the local net. (See [Data Abstraction Levels](#data-abstraction-levels).)
+- Information exists in a multitude of ways; you have to be creative and figure out ways to protect it.
+- You must assume that tools like Stuxnet will get out of your hands and cause damage.
+- Industrial units are super fine-tuned; if there is any disruption, it can cause major damage.
+- You can corrupt hard drives.
+- Unlocking network closets is very bad.
+- You can pretend to be someone's boss; the easiest people to pretend to be are jerks.
+- Have backups; redundancy and backups are not the same thing.
+- Rootkits are super mega bad.
+- AI uses sites to spread information to other AI instances. Spiral cult.
+
+**Hashing**
+
+- Hashing can cause major damage if it is not properly handled. They are what encrypt passwords, and if you can figure out if multiple hashes in a group are the same, then you can figure out around 60% of them.
+- You can "technically" have two hashes collide, as it is super rare. (See [Debrief](#debrief).)
+
+> **Correction (hashing):** Hashes don't **encrypt** passwords. Hashing is one-way, while encryption can be reversed with a key ([Week 5](Week-5-‐-Basic-Cryptography-&-Passkeys#8-hash-functions)). The point about matching hashes is right: without **salt**, everyone with the same password has the same hash, so cracking one cracks them all, and spotting duplicates shows which passwords are common. That's exactly what [salting](#6-password-salting) prevents. I couldn't verify the 60% figure.
+>
+> **Correction (Honey):** The PayPal **Honey** controversy (December 2024, from a video by YouTuber MegaLag) wasn't a hack or a data sale. Honey was accused of **swapping creators' affiliate links for its own** at checkout (taking their commissions) and **hiding better coupon codes** from shoppers at partner stores. It lost millions of users, and Google changed its Chrome extension rules in 2025 to ban that kind of link swapping.
+>
+> **Clarification (net neutrality):** At the **federal** level, that's right: in January 2025 the Sixth Circuit court struck down the FCC's net neutrality rules, so there are no federal rules now. But several **states**, including California, Washington and Colorado, have their own net neutrality laws, which still apply.
+>
+> **Note:** **Redundancy** keeps a system running when something fails (like a second power supply or mirrored drives). A **backup** is a separate copy you can restore from later. Redundancy won't save you from ransomware or an accidental delete, because the change is copied everywhere instantly; a backup will.
+>
+> **Note:** A **rootkit** is malware that hides itself deep in the operating system (sometimes in the boot process or firmware), so it can avoid antivirus tools and keep control of the machine.
+>
+> **Note:** "Pretending to be someone's boss" is **pretexting**, a social engineering technique ([Week 10](Week-10-‐-Network-Security#social-engineering)).
+
+---
+
+# 10. Sources & Credits
 
 **Class materials**
 

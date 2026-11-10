@@ -20,7 +20,8 @@ Week 11 covers web fundamentals and security: how websites work, HTML, CSS and J
 6. [Common Web Attacks](#6-common-web-attacks)
 7. [Secure Web Practices](#7-secure-web-practices)
 8. [Case Study: PHP2Shell (2026)](#8-case-study-php2shell-2026)
-9. [Sources & Credits](#9-sources--credits)
+9. [My Notes](#9-my-notes)
+10. [Sources & Credits](#10-sources--credits)
 
 ---
 
@@ -404,7 +405,63 @@ The exploit chain was complex. Notably, **both discovery teams used AI models** 
 
 ---
 
-# 9. Sources & Credits
+# 9. My Notes
+
+*From my tech journal. My Week 11 notes are the definitions from the slides, all covered in the sections above, so they're collapsed here.*
+
+<details>
+<summary><b>My Week 11 notes (click to expand)</b></summary>
+
+- The **client-server model** is a network framework that allows clients to ask for information or services from servers.
+- **Static web pages** are text files containing HTML with their content staying fixed.
+- **Dynamic web pages** are interactive and can change based on user input or real-time data.
+- The **markup tags** provide information about the page content structure.
+- **HTML** is the most basic building block of the Web. It describes and defines the content of a webpage.
+  - "HyperText" refers to links that connect web pages to one another, either within a single website or between websites.
+  - "Markup" means to annotate text, images and other content for display in a web browser.
+- **HTML (HyperText Markup Language):** a standard markup language used to structure and style websites. Examples: `<img>` (image), `<b>` (bold), `<a>` (link).
+- **CSS (Cascading Style Sheets):** a language used to describe designs and presentations for web pages.
+- **JavaScript (JS):** a client-side scripting language used to make interactive (dynamic) web pages.
+
+```html
+<html>              <!-- opening tag for document -->
+  <head>            <!-- section not displayed but contains info for browser -->
+    <title>         <!-- the name of the page that is printed in the tab title -->
+      Title goes here
+    </title>        <!-- closing tag: means section is done -->
+  </head>
+  <body>            <!-- body contains what is displayed in browser -->
+    Webpage stuff goes here!
+  </body>
+</html>
+```
+
+- **Headers:** the introduction of a page or section (`<header>`). **Title:** establishes the title of the page (`<title>`). **Body:** the primary content of the page (`<body>`).
+- **HTML forms** are web documents that accept user input: fields that can be filled in and/or buttons that can be clicked.
+- **DNS (Domain Name System):** a system that converts domain names into IP addresses.
+- **IP (Internet Protocol) address:** a unique number that recognizes a device on the internet.
+- **URL (Uniform Resource Locator):** a unique identifier used to identify a resource on the internet.
+- **Request/response cycle:** a communication procedure where a client transmits a request to a server and the server replies.
+- **Caching:** a method to temporarily save data on a computer so it can be easily accessed.
+- **Common status codes:** 404 Not Found (the requested page is not found); 200 OK (a successful request from a client to a server); 400 Bad Request (the server could not understand the request because the format is incorrect).
+- **PHP (Hypertext Preprocessor):** a server-side scripting language used to create dynamic web pages; used for handling forms, interacting with databases and user authentication.
+- **HTTP methods** are requests that a client makes to a web server to perform a certain action. **GET** requests data from a specified resource. **POST** sends data to a server to create/update a resource.
+- **HTML = structure, PHP = logic.** HTML is the front-end: it defines the page's content and structure. PHP is the back-end: it processes data, interacts with databases and dynamically generates content. PHP runs on the server before sending HTML to the browser.
+- **SQL injection:** a technique used to inject malicious code in SQL statements through web page input.
+- **XSS (cross-site scripting):** a technique used to inject malicious code into web applications.
+- **Clickjacking:** a technique used to trick the user into clicking a hyperlink, thinking it is something else.
+- **Man-in-the-browser (MitB):** a technique where a Trojan horse application is downloaded into a user's web browser.
+- **HTTPS:** the encrypted version of HTTP, which helps defend users from eavesdropping and tampering.
+- **Input validation:** checking user input to make sure it meets particular criteria.
+- **Security headers:** instructions that web servers send to browsers to help defend websites from attacks.
+
+</details>
+
+> **Note:** Two small fixes from the slide wording: HTML **structures** pages while CSS **styles** them, and a 404 means the **page** wasn't found on a server that was reached, as explained in [HTTP Status Codes](#http-status-codes).
+
+---
+
+# 10. Sources & Credits
 
 **Class materials**
 

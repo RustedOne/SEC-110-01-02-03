@@ -21,7 +21,8 @@ Week 9 introduces the CyberRange lab environment: virtual machines and hyperviso
    - [JavaScript](#javascript)
    - [The Same Scripts Side by Side](#the-same-scripts-side-by-side)
 7. [Command Cheat Sheet at a Glance](#7-command-cheat-sheet-at-a-glance)
-8. [Sources & Credits](#8-sources--credits)
+8. [My Notes](#8-my-notes)
+9. [Sources & Credits](#9-sources--credits)
 
 ---
 
@@ -510,7 +511,19 @@ while ($true) {
 
 ---
 
-# 8. Sources & Credits
+# 8. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling.*
+
+- **VMs:** putting a computer in a computer. (See [Virtual Machines & Hypervisors](#1-virtual-machines--hypervisors).)
+- Used for testing/troubleshooting stuff.
+- Our computers have a lot more processing power than they really need, more often than not.
+
+> **Note:** That spare power is exactly what makes VMs practical: one physical machine can run several guest operating systems at once. It's also why data centers use virtualization: one powerful server can replace many mostly idle ones.
+
+---
+
+# 9. Sources & Credits
 
 **Class materials**
 

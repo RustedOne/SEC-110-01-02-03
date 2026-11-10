@@ -17,7 +17,8 @@ Week 5 covers basic cryptography: the key terms, the CIA triad plus authenticati
 9. [Digital Signatures](#9-digital-signatures)
 10. [Passkeys](#10-passkeys)
 11. [Cryptography at a Glance](#11-cryptography-at-a-glance)
-12. [Sources & Credits](#12-sources--credits)
+12. [My Notes](#12-my-notes)
+13. [Sources & Credits](#13-sources--credits)
 
 ---
 
@@ -311,7 +312,57 @@ Google's page doesn't explain the cryptography, but passkeys are **asymmetric en
 
 ---
 
-# 12. Sources & Credits
+# 12. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling; added context is in the notes below.*
+
+**Cryptography basics**
+
+- **Cryptography:** making codes. This is an entire field of study.
+- Something as simple as an inside joke can be considered cryptography.
+- **Ciphers** are a type of method/code that is a type of encryption to prevent outsiders from reading it.
+- Lots of different ciphers have been used throughout history, becoming more common and more complicated over time. (See [Atbash](#atbash-cipher) and [Caesar](#caesar-cipher).)
+- Two ways to encrypt things: **symmetric** and **asymmetric** encryption.
+- Two common applications: **data at rest** encryption and **data in transit** encryption.
+- **Public keys and private keys** are for you. Public keys are for the public, and private keys are for yourself.
+- **Digital certificates:** they are the public key that you use, kind of. An authority that trusts you issues them.
+
+**CIA, NR & authentication**
+
+- CIA is not the feds, it is Confidentiality, Integrity, and Authentication.
+- **NR** (non-repudiation) is when an action is performed that cannot be denied.
+- Multi-factor authentication is not just a digital form of security; it can be used for physical security, like a fingerprint or a Face ID (don't trust the latter).
+- We have to make security for the average person. Not everyone has the best memory.
+
+**Hashing**
+
+- Hashing lets us take any message and verify it hasn't been altered.
+- Cryptographic hashes are considered impossible to invert.
+- Password files are made out of hashes.
+- Intrusion/virus scanners are super effective with hashes.
+- Steganography: you can change the color of a pixel, allowing you to hide images in plain sight. Encode the file, be wild.
+
+**Other**
+
+- Master locks are really bad. Get Abus locks. Put an alarm on it.
+- Beware of malware.
+- **Blockchain:** a digital ledger that records transactions.
+- **Cryptocurrency:** digital money.
+- Tests have never been a good representation of my work; I've always struggled with them.
+
+> **Correction:** The **A** in CIA is **Availability**. **Authentication** is one of the two extra goals cryptography adds, alongside non-repudiation: see [CIA + Authentication & Non-Repudiation](#2-cia--authentication--non-repudiation).
+>
+> **Clarification (certificates):** A digital certificate **contains** your public key, signed by a **certificate authority** that has **verified your identity** (rather than one that "trusts you"). See [Digital Certificates](#7-digital-certificates).
+>
+> **Clarification (scanners):** Antivirus and integrity tools compare file **hashes** against lists of known malware or known-good files, which makes hashes very effective for spotting changed or malicious files ([Week 6](Week-6-‐-PKI-&-Hash-Functions#4-uses-of-hash-functions)).
+>
+> **Note:** "Don't trust Face ID" depends on the system: phone face unlock that uses a 3D depth sensor (like Apple's Face ID) is quite hard to fool, but simpler camera-only face unlock can sometimes be tricked with a photo.
+>
+> **Note:** Blockchains use the **hashing** from this week: each block includes the hash of the previous block, so changing an old transaction would break every hash after it.
+
+---
+
+# 13. Sources & Credits
 
 **Class materials**
 

@@ -1,6 +1,6 @@
 Week 1 covers what cybersecurity is: famous hacks from 1903 to 2017, key definitions, why complexity makes systems so hard to secure, how attacks have evolved, the motives behind them, and the basic attack pattern.
 
-*Sources: SEC-110 slides "What is Cybersecurity" and "Module 1 - Understanding the Threats: Cyber-Threat Overview" (notes deck), plus the web links listed in [Sources & Credits](#8-sources--credits).*
+*Sources: SEC-110 slides "What is Cybersecurity" and "Module 1 - Understanding the Threats: Cyber-Threat Overview" (notes deck), plus the web links listed in [Sources & Credits](#9-sources--credits).*
 
 ## Contents
 
@@ -27,7 +27,8 @@ Week 1 covers what cybersecurity is: famous hacks from 1903 to 2017, key definit
    - [Messing Around](#messing-around)
 6. [Activity: Steal the Cookie Recipe](#6-activity-steal-the-cookie-recipe)
 7. [The Cyber-Attack Method](#7-the-cyber-attack-method)
-8. [Sources & Credits](#8-sources--credits)
+8. [My Notes](#8-my-notes)
+9. [Sources & Credits](#9-sources--credits)
 
 ---
 
@@ -471,7 +472,51 @@ Cyber-attacks are as varied as their motives and targets, but they generally fol
 
 ---
 
-# 8. Sources & Credits
+# 8. My Notes
+
+*From my tech journal (Aug 25, 2026). Lightly cleaned up for spelling; added context is in the notes below.*
+
+**The Internet today**
+
+- Online privacy is becoming a hotter topic.
+- AI will change a lot. (No kidding.)
+- The Internet is still the Wild West.
+- The Internet was not designed to be what it is today. (See [Why Isn't the Internet Secure?](#2-key-definitions) and [WarGames](#wargames--the-first-national-policy).)
+- The WarGames movie is more relevant than ever.
+- The web is a collection of information that is located through an internet connection. (See [Internet vs. Web vs. Cyberspace](#internet-vs-web-vs-cyberspace).)
+- English and Chinese are the biggest languages on the internet.
+- Bigger subnets are forming on the internet.
+- You can now get arrested for bad-mouthing data centers.
+
+**Threats**
+
+- NO R.A.B.I.D.S or BARTMOSS events, VERY BAD.
+- WannaCry was really weird; it skipped some computers and hit others.
+- In today's era, we see a lot more copy AIs that have the ability to make far more dangerous viruses, worms, etc.
+- Screw worms bad.
+- Resource drain loop with old stuff in elec.
+
+**Computers and complexity**
+
+- Computers start acting slow or glitchy when left on too long because background trash piles up in their short-term memory and heat builds up inside the case.
+- Restart your computer often; it can degrade.
+- A plane thinking it is below sea level is very bad; it might also be what happened to the Malaysian flight.
+
+> **Note:** R.A.B.I.D.S. and Bartmoss are from the *Cyberpunk* universe: Rache Bartmoss's R.A.B.I.D.S. viruses wrecked that world's net (the "DataKrash"). A good fictional example of self-replicating malware getting out of control, like the [Morris worm](#morris-worm) did for real.
+>
+> **Clarification (WannaCry):** WannaCry only spread to machines that were **unpatched** and had the old **SMBv1** file-sharing service reachable. Patched machines were skipped. It also checked a "kill switch" web domain before running; once a researcher registered that domain, new infections stopped running. See [WannaCry Ransomware](#wannacry-ransomware).
+>
+> **Clarification (languages):** By number of **users**, English and Chinese are the top two. By website **content**, English is far ahead (roughly half of all websites), while Chinese makes up only a small share of sites, partly because much of China's internet sits behind the Great Firewall.
+>
+> **Clarification (restarting):** A long-running computer slows down mostly because of **memory leaks** and leftover background processes in **RAM** (short-term memory). Restarting clears them. The **hardware** doesn't degrade from being left on; performance does, until you restart. Heat only slows things down if cooling can't keep up (thermal throttling).
+>
+> **Clarification (the plane):** That's an example of a system acting on **bad sensor data**, an integrity problem, like Stuxnet's [false feedback](Week-3-‐-OSINT-&-Data-Security-Principles#4-compromising-the-cia-triad). The cause of Malaysia Airlines **MH370**'s 2014 disappearance has never been determined, so this is a theory, not a known cause.
+>
+> **Note:** I couldn't confirm the note about being arrested for bad-mouthing data centers; it may refer to a specific news story from class.
+
+---
+
+# 9. Sources & Credits
 
 **Class materials**
 

@@ -27,7 +27,8 @@ Week 2 covers the foundations of cybersecurity (the CIA triad and the six cybers
 6. [Insiders vs. Outsiders](#6-insiders-vs-outsiders)
 7. [Why Cybersecurity Is a Hard Problem](#7-why-cybersecurity-is-a-hard-problem)
 8. [Risk](#8-risk)
-9. [Sources & Credits](#9-sources--credits)
+9. [My Notes](#9-my-notes)
+10. [Sources & Credits](#10-sources--credits)
 
 ---
 
@@ -385,7 +386,58 @@ Risks can target **organizational operations** (mission, functions, image or rep
 
 ---
 
-# 9. Sources & Credits
+# 9. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling; added context is in the notes below.*
+
+**Threats, vulnerabilities & the home**
+
+- Threats aren't just true hackers; they can be from the environment itself, such as a basement flooding or a car coming through your window. (See [Threat Sources](#4-threat-sources).)
+- There will always be vulnerabilities at home.
+- We are making our homes more vulnerable with all of the smart tech we are putting into them, such as Roombas and wireless security cameras. (See [The Smart Home](#activity-the-smart-home).)
+- "My lightbulbs are mining crypto."
+- **Botnets** are groups of automated systems that have been hijacked and are used remotely by hackers and other groups to use their processing power to do things they are not supposed to. (See [Mirai](#loss-of-availability).)
+- You cannot make traps within your home; this is illegal due to entrapment laws.
+
+**CIA**
+
+- C, I, A stands for **Confidentiality, Integrity, Availability**. This is super important, as these can be used in a variety of ways to identify and classify risks when they are labeled as such.
+
+**Phone stuff (class exercise)**
+
+| | |
+| --- | --- |
+| **Threats** | Open access to phone, unsecured Wi-Fi, water, EMP, solar flares, dormant virus |
+| **Vulnerabilities** | No casing, unprotected communication, no security features, no lock screen, non-verified apps |
+| **Attacks** | Phishing, hacking, spyware, malicious apps, bad websites |
+| **Protective measures** | Phone casing, encrypted calls, HTTPS, security protocols |
+
+**Adversaries**
+
+- A **supply chain attack** can be used to target a different person/group, as you would not be the intended victim.
+- APTs are a major threat, but most people aren't big or important enough to register on their radar. (See [Advanced Persistent Threats](#advanced-persistent-threats).)
+- Geopolitical stuff must be taken into account with this stuff.
+
+**Tech, work & life**
+
+- Data rots, and we own nothing. (This is why I frequent second-hand stores.)
+- Vibe code work is becoming an issue.
+- Don't work three jobs in one company; that is a bad idea and will get you burned out.
+- Don't make things on the company's time. They will try to take it from you, as it belongs to them.
+- A lot of companies are trying to become the next Netflix; this is NOT a long-term solution.
+- I'm going to get radicalized, lmao.
+
+> **Correction (traps):** Booby traps that can injure people are illegal in the US, even to protect your own home. A famous case is *Katko v. Briney* (1971), where homeowners were held liable for a spring-gun trap. But that's not **entrapment**: entrapment is when **police** trick someone into committing a crime they wouldn't otherwise commit. (I'm not a lawyer; this is general information.)
+>
+> **Note:** "My lightbulbs are mining crypto" is a real kind of risk: weak smart devices get hijacked into botnets or used for [cryptojacking](Week-1-‐-What-Is-Cybersecurity-&-Cyber-Threats#cryptocurrency-mining-malware-cryptojacking), though a lightbulb has too little computing power to mine much.
+>
+> **Note:** **Data rot** (or "bit rot") is the slow decay of stored data as storage media wears out. "Owning nothing" refers to digital purchases that are really licenses, which can disappear if a service shuts down. **Vibe coding** means building software mostly by prompting AI and accepting what it writes without fully understanding it, which can let security bugs slip through.
+>
+> **Clarification (company time):** Whether your employer owns what you make depends on your employment contract and local law. Many contracts assign anything built on company time or equipment to the company. Read the IP section of any job agreement.
+
+---
+
+# 10. Sources & Credits
 
 **Class materials**
 

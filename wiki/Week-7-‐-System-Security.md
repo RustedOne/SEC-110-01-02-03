@@ -12,7 +12,8 @@ Week 7 covers system security: what it includes, common threats, access control 
 6. [IoT & Physical Security](#6-iot--physical-security)
 7. [Emerging Trends](#7-emerging-trends)
 8. [Do's & Don'ts](#8-dos--donts)
-9. [Sources & Credits](#9-sources--credits)
+9. [My Notes](#9-my-notes)
+10. [Sources & Credits](#10-sources--credits)
 
 ---
 
@@ -207,7 +208,56 @@ IoT risks include **data privacy breaches, DoS attacks and hijacking**, because 
 
 ---
 
-# 9. Sources & Credits
+# 9. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling; added context is in the notes below.*
+
+**Physical security**
+
+- **Goals of physical security:** protect people, property, facilities and assets from unauthorized access, damage, harm or loss.
+- If you have physical access, all other security goes out the window. You can just wreck the computer.
+- Physical security is the most important security, because what if they can just walk in?
+- CLOSE THE DOOR.
+- The human will always be the weakest link.
+- **Physical security monitoring:** access control, surveillance, perimeter.
+- **Security types:** perimeter, environmental, system boundary.
+
+**Common physical security threats**
+
+- **Insider threats:** people who have infiltrated a company or government and abuse that authority to leak or steal information.
+- **Social engineering:** tricking someone into giving up information or data about their organization, their security, etc.
+
+**Access control**
+
+- Access control is very helpful because it allows someone to make sure that they are who they say they are. This is not foolproof.
+- **DAC:** Discretionary Access Control
+- **MAC:** Mandatory Access Control
+- **RBAC:** Role-Based Access Control
+- **ABAC:** Attribute-Based Access Control (location, time, role)
+- **Least privilege principle:** this one's pretty straightforward: you only have access to what you need to have access to, nothing more. Give them as little privilege as possible.
+- **Geofencing:** you only let someone access a device, file or anything secure from a certain location; they have to be in that location, or else it will not work.
+- Some people have too much access around the campus.
+
+**IoT & trends**
+
+- **IoT:** "Internet of Things – using internet-connected devices to monitor or access physical environments" (direct quote from the slideshow).
+- Do the systems themselves tell you if they have been hijacked?
+- Third-party security systems do a piss-poor job at protecting things.
+- **Emerging trends:** AI-powered threat detection, Zero Trust Architecture, securing the remote workforce.
+
+**Other**
+
+- Conflict will help you get better with the people you were with.
+
+> **Clarification (insiders):** Insiders usually **haven't** infiltrated anything: they're **trusted** employees, contractors or partners with legitimate access who misuse it (like the [Week 2 examples](Week-2-‐-Security-Concepts-&-Threats-and-Adversaries#6-insiders-vs-outsiders)). A spy who gets hired on purpose is one kind of insider, but most aren't.
+>
+> **Note:** "Physical access beats everything" is a classic security rule. **Full-disk encryption** (like BitLocker) is the main exception: a stolen laptop's data stays unreadable without the key, even though the thief can still destroy the machine.
+>
+> **Note (answering my own question):** Usually **no**. Hijacked IoT devices rarely alert anyone; Mirai-infected cameras kept working normally. That's why outside monitoring ([SIEM/XDR](#system-surveillance--monitoring), unusual network traffic) and checking logged-in devices matter.
+
+---
+
+# 10. Sources & Credits
 
 **Class materials**
 

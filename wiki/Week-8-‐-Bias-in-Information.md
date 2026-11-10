@@ -12,7 +12,8 @@ Week 8 covers bias: what it is, why it matters in cybersecurity, media bias and 
 6. [Reading: Correcting Misinformation & the Backfire Effect](#6-reading-correcting-misinformation--the-backfire-effect)
 7. [News: Disinformation Bots & the Supermarket Fridge Hack](#7-news-disinformation-bots--the-supermarket-fridge-hack)
 8. [Podcast: Generous Orthodoxy](#8-podcast-generous-orthodoxy)
-9. [Sources & Credits](#9-sources--credits)
+9. [My Notes](#9-my-notes)
+10. [Sources & Credits](#10-sources--credits)
 
 ---
 
@@ -184,7 +185,33 @@ If you paste the article text, I can add proper summaries.
 
 ---
 
-# 9. Sources & Credits
+# 9. My Notes
+
+*From my tech journal. Lightly cleaned up for spelling; added context is in the notes below.*
+
+- Getting to know/understand what people want/need will help you know how you can use them.
+- Scams are becoming more sophisticated.
+- The uncanny valley is now crossed.
+- LLMs can now data-mine Flock/security cameras.
+- This may destroy the internet as we know it.
+- These agents will fucking kill us.
+- GET WIRED INTERNET.
+- Security is money.
+- Tribalism is spreading.
+- "Fuck you, got mine" is becoming worrying.
+- Memes are a great psychological weapon.
+
+> **Note:** "Knowing what people want so you can use them" is how **social engineers** think: attackers exploit people's needs, trust and biases ([Bias in Cybersecurity](#2-bias-in-cybersecurity)). Knowing it helps you spot it.
+>
+> **Note:** "The uncanny valley is crossed" connects to **deepfakes**: AI-generated voices and video are now realistic enough to fool people, which makes scams like fake "boss" calls much more convincing. A good defense is **call-back verification** through a number you already know.
+>
+> **Note:** **Flock** (Flock Safety) makes automated license plate reader cameras used by many US police departments and neighborhoods. Combining camera networks with AI search raises big privacy questions.
+>
+> **Note:** "Memes are a psychological weapon" connects to the **illusory truth effect** from [section 6](#6-reading-correcting-misinformation--the-backfire-effect): repeated, catchy messages feel more true. "Get wired internet" connects to [Wi-Fi security in Week 10](Week-10-‐-Network-Security#wi-fi-security): wired connections can't be sniffed from the parking lot.
+
+---
+
+# 10. Sources & Credits
 
 **Class materials**
 
